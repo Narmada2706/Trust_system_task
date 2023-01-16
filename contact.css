@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family:'Poppins',sans-serif;
+    color: #444;
+  }
+  nav{
+    font-size: large;
+    font-weight: 900;
+   
+  }
+#img{
+  border-radius: 50%;
+  max-width: 30%;
+  height: auto;
+}
+
+  
+ 
+.form-area{
+    padding-top: 5%;
+}
+.row-single-form-g-0{
+    box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);
+   
+}
+
+.left{
+     background-color:#000;
+     /* padding:200px 93px;  */
+     padding: 25%;
+}
+
+
+.left h2{
+   
+    font-weight: 600;
+    font-size: 40px;
+    color: #fff;
+
+}
+.left h2 span{
+    font-weight: 600;
+    font-size: 40px;
+    color: #fff;
+}
+.right{
+    padding: 70px 100px;
+    position: relative;
+}
+.right i{
+    position: absolute;
+    font-size: 80px;
+    left: -27px;
+    top: 40%;
+    
+}
+.form-control{
+    border: 2px solid #000;
+
+}
+.right button{
+    border: none;
+    border-radius: 5px;
+    background: #000;
+    width: 180px;
+    padding: 15px 0;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-reddit {
+    background: #ff5700;
+    color: white;
+  }
+  
+  .fa-tumblr {
+    background: #2c4762;
+    color: white;
+  }
+  
+  
+  .footer{
+    
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: black;
+   padding: 0.4%;
+   height: 100%;
+   margin-bottom: 0;
+  }
+ @media (min-width: 768px) and (max-width: 991px){
+    .right i{
+        top: 52px;
+        transform: rotate(90deg);
+        left: 50%;
+    }
+ }
+ @media (max-width: 767px){
+    .left{
+       padding: 90px 15px;
+       text-align: center;
+    }
+    .left h2{
+        font-size: 25px;
+
+    }
+    .right i{
+        top: -25px;
+        transform: rotate(90deg);
+        left: 45%;
+    }
+    .right button{
+        width: 150px;
+        padding: 12px 0;
+
+    }
+ }
